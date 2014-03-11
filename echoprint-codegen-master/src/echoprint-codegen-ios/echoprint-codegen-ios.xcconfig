@@ -5,4 +5,4 @@
 //  Created by Art Gillespie on 5/14/11.
 //
 
-HEADER_SEARCH_PATHS = /Users/rexstjohn/Development/boost
+HEADER_SEARCH_PATHS = /Users/[your_dir]/path/to/boost
