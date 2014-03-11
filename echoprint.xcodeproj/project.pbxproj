@@ -16,13 +16,10 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* echoprintViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* echoprintViewController.mm */; };
 		4BBDAA957F5445D8AFD0EECE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C781E7464C49138C09E899 /* libPods.a */; };
-		51D5905518CEC05A006D1C06 /* CAStreamBasicDescription.h in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8897E13A6985F002C92D4 /* CAStreamBasicDescription.h */; };
-		51D5905618CEC072006D1C06 /* Codegen.h in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8896C13A69821002C92D4 /* Codegen.h */; };
-		51D5905718CEC075006D1C06 /* CADebugMacros.h in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8898413A69869002C92D4 /* CADebugMacros.h */; };
-		51D5905818CEC075006D1C06 /* echoprint_Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* echoprint_Prefix.pch */; };
 		51D5905A18CEC53F006D1C06 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D5905918CEC53F006D1C06 /* libstdc++.dylib */; };
 		51F573E9187F9B4E00B85689 /* libechoprint-codegen-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F573E6187F9B2F00B85689 /* libechoprint-codegen-ios.a */; };
 		51F573EB187F9B5300B85689 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F573EA187F9B5300B85689 /* libstdc++.6.0.9.dylib */; };
+		51FB605318CED69E0071143B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FB605218CED69E0071143B /* Default-568h@2x.png */; };
 		547F808E18C76966000FEDB7 /* CodeGenWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 547F808B18C76966000FEDB7 /* CodeGenWrapper.mm */; };
 		547F808F18C76966000FEDB7 /* FPGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 547F808D18C76966000FEDB7 /* FPGenerator.mm */; };
 		9AC8897513A69840002C92D4 /* MicrophoneInput.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8897413A69840002C92D4 /* MicrophoneInput.mm */; };
@@ -70,6 +67,7 @@
 		51D5905918CEC53F006D1C06 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		51F573E1187F9B2F00B85689 /* echoprint-codegen-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "echoprint-codegen-ios.xcodeproj"; path = "echoprint-codegen-master/src/echoprint-codegen-ios/echoprint-codegen-ios.xcodeproj"; sourceTree = "<group>"; };
 		51F573EA187F9B5300B85689 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		51FB605218CED69E0071143B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		547F808A18C76966000FEDB7 /* CodeGenWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeGenWrapper.h; sourceTree = "<group>"; };
 		547F808B18C76966000FEDB7 /* CodeGenWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CodeGenWrapper.mm; sourceTree = "<group>"; };
 		547F808C18C76966000FEDB7 /* FPGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPGenerator.h; sourceTree = "<group>"; };
@@ -147,6 +145,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				51FB605218CED69E0071143B /* Default-568h@2x.png */,
 				51F573E1187F9B2F00B85689 /* echoprint-codegen-ios.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -281,6 +280,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* echoprintViewController.xib in Resources */,
+				51FB605318CED69E0071143B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,13 +327,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* echoprintAppDelegate.mm in Sources */,
 				28D7ACF80DDB3853001CB0EB /* echoprintViewController.mm in Sources */,
-				51D5905718CEC075006D1C06 /* CADebugMacros.h in Sources */,
 				9AC8897513A69840002C92D4 /* MicrophoneInput.mm in Sources */,
 				9AC889D113A69AD6002C92D4 /* TSLibraryImport.mm in Sources */,
 				547F808E18C76966000FEDB7 /* CodeGenWrapper.mm in Sources */,
-				51D5905518CEC05A006D1C06 /* CAStreamBasicDescription.h in Sources */,
-				51D5905618CEC072006D1C06 /* Codegen.h in Sources */,
-				51D5905818CEC075006D1C06 /* echoprint_Prefix.pch in Sources */,
 				547F808F18C76966000FEDB7 /* FPGenerator.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
