@@ -2,7 +2,7 @@
 
 March 10th, 2014
 
-Turns out many of the .h headers were not set to C++ and we needed to link against the C++ dylib. Now it seems to compile. Hopefully this is the final step to making it all work.
+Turns out many of the .h headers were not set to C++ and we needed to link against the C++ dylib. I have successfully used this to both select a song from my library and record an audio segment and correctly identify it now. 
 
 (March 6th, 2014)
 
@@ -24,6 +24,7 @@ This is an upgraded version of the Echoprint Sample iOS Project.
 
 INSTALL / SETUP INSTRUCTIONS
 
+- Sign up for an Echoprint API key on developer.echoprint.com and replace "API_KEY" in "echoprintViewController" with yours
 - The project requires a depdendency on libechoprint-codegen-ios.a and thus needs to build the sub-project (see below)
 - Run pod install to setup the pod files in the project root
 - Download Boost 1.5+ and unzip it someplace useful like /Users/YOUR_USER_GOES_HERE_REPLACE_THIS/Development/boost
