@@ -1,5 +1,9 @@
 ***** UPDATE *****
 
+March 10th, 2014
+
+Turns out many of the .h headers were not set to C++ and we needed to link against the C++ dylib. Now it seems to compile. Hopefully this is the final step to making it all work.
+
 (March 6th, 2014)
 
 I just merged a pull request with a fix to the issues people were having previously, hopefully these are now resolved.
