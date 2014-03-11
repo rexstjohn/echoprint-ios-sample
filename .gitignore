@@ -1,4 +1,5 @@
 Pods/
 Podfile.lock
 README.mdown
-echoprint-codegen-master/src/echoprint-codegen-ios/echoprint-codegen-ios.xcconfig 
+echoprint-codegen-master/src/echoprint-codegen-ios/echoprint-codegen-ios.xcconfig
+Podfile.lock
