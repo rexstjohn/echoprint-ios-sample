@@ -7,23 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* echoprintAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* echoprintAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* echoprintAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* echoprintAppDelegate.mm */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		2899E5220DE3E06400AC0155 /* echoprintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* echoprintViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* echoprintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* echoprintViewController.m */; };
+		28D7ACF80DDB3853001CB0EB /* echoprintViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* echoprintViewController.mm */; };
 		4BBDAA957F5445D8AFD0EECE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C781E7464C49138C09E899 /* libPods.a */; };
+		51D5905518CEC05A006D1C06 /* CAStreamBasicDescription.h in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8897E13A6985F002C92D4 /* CAStreamBasicDescription.h */; };
+		51D5905618CEC072006D1C06 /* Codegen.h in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8896C13A69821002C92D4 /* Codegen.h */; };
+		51D5905718CEC075006D1C06 /* CADebugMacros.h in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8898413A69869002C92D4 /* CADebugMacros.h */; };
+		51D5905818CEC075006D1C06 /* echoprint_Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* echoprint_Prefix.pch */; };
+		51D5905A18CEC53F006D1C06 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D5905918CEC53F006D1C06 /* libstdc++.dylib */; };
 		51F573E9187F9B4E00B85689 /* libechoprint-codegen-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F573E6187F9B2F00B85689 /* libechoprint-codegen-ios.a */; };
 		51F573EB187F9B5300B85689 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F573EA187F9B5300B85689 /* libstdc++.6.0.9.dylib */; };
 		547F808E18C76966000FEDB7 /* CodeGenWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 547F808B18C76966000FEDB7 /* CodeGenWrapper.mm */; };
-		547F808F18C76966000FEDB7 /* FPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 547F808D18C76966000FEDB7 /* FPGenerator.m */; };
-		9AC8897513A69840002C92D4 /* MicrophoneInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8897413A69840002C92D4 /* MicrophoneInput.m */; };
+		547F808F18C76966000FEDB7 /* FPGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 547F808D18C76966000FEDB7 /* FPGenerator.mm */; };
+		9AC8897513A69840002C92D4 /* MicrophoneInput.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8897413A69840002C92D4 /* MicrophoneInput.mm */; };
 		9AC8898A13A69876002C92D4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC8898913A69876002C92D4 /* AVFoundation.framework */; };
 		9AC8899113A69880002C92D4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC8899013A69880002C92D4 /* AudioToolbox.framework */; };
-		9AC889D113A69AD6002C92D4 /* TSLibraryImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC889D013A69AD6002C92D4 /* TSLibraryImport.m */; };
+		9AC889D113A69AD6002C92D4 /* TSLibraryImport.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9AC889D013A69AD6002C92D4 /* TSLibraryImport.mm */; };
 		9AC88A0113A6A4B4002C92D4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC88A0013A6A4B4002C92D4 /* MediaPlayer.framework */; };
 		9AC88A6F13A6ACEA002C92D4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC88A6E13A6ACEA002C92D4 /* libz.dylib */; };
 		9AC88A7313A6AD1A002C92D4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC88A7213A6AD1A002C92D4 /* CFNetwork.framework */; };
@@ -52,33 +57,34 @@
 		12C4245D36A74350A5EFE6CB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* echoprintAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = echoprintAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* echoprintAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = echoprintAppDelegate.m; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* echoprintAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = echoprintAppDelegate.mm; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* echoprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = echoprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* echoprintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = echoprintViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28D7ACF60DDB3853001CB0EB /* echoprintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = echoprintViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* echoprintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = echoprintViewController.m; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* echoprintViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = echoprintViewController.mm; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* echoprint_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = echoprint_Prefix.pch; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* echoprint_Prefix.pch */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = echoprint_Prefix.pch; sourceTree = "<group>"; };
+		51D5905918CEC53F006D1C06 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		51F573E1187F9B2F00B85689 /* echoprint-codegen-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "echoprint-codegen-ios.xcodeproj"; path = "echoprint-codegen-master/src/echoprint-codegen-ios/echoprint-codegen-ios.xcodeproj"; sourceTree = "<group>"; };
 		51F573EA187F9B5300B85689 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		547F808A18C76966000FEDB7 /* CodeGenWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeGenWrapper.h; sourceTree = "<group>"; };
 		547F808B18C76966000FEDB7 /* CodeGenWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CodeGenWrapper.mm; sourceTree = "<group>"; };
 		547F808C18C76966000FEDB7 /* FPGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPGenerator.h; sourceTree = "<group>"; };
-		547F808D18C76966000FEDB7 /* FPGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPGenerator.m; sourceTree = "<group>"; };
+		547F808D18C76966000FEDB7 /* FPGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FPGenerator.mm; sourceTree = "<group>"; };
 		84C781E7464C49138C09E899 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1107310486CEB800E47090 /* echoprint-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "echoprint-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		9AC8896C13A69821002C92D4 /* Codegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Codegen.h; path = "Echoprint Headers/Codegen.h"; sourceTree = "<group>"; };
+		9AC8896C13A69821002C92D4 /* Codegen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Codegen.h; path = "Echoprint Headers/Codegen.h"; sourceTree = "<group>"; };
 		9AC8897313A69840002C92D4 /* MicrophoneInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrophoneInput.h; sourceTree = "<group>"; };
-		9AC8897413A69840002C92D4 /* MicrophoneInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrophoneInput.m; sourceTree = "<group>"; };
-		9AC8897E13A6985F002C92D4 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAStreamBasicDescription.h; path = "Echoprint Headers/CAStreamBasicDescription.h"; sourceTree = "<group>"; };
-		9AC8898413A69869002C92D4 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADebugMacros.h; path = "Echoprint Headers/CADebugMacros.h"; sourceTree = "<group>"; };
+		9AC8897413A69840002C92D4 /* MicrophoneInput.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MicrophoneInput.mm; sourceTree = "<group>"; };
+		9AC8897E13A6985F002C92D4 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CAStreamBasicDescription.h; path = "Echoprint Headers/CAStreamBasicDescription.h"; sourceTree = "<group>"; };
+		9AC8898413A69869002C92D4 /* CADebugMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CADebugMacros.h; path = "Echoprint Headers/CADebugMacros.h"; sourceTree = "<group>"; };
 		9AC8898913A69876002C92D4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9AC8899013A69880002C92D4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		9AC889CF13A69AD0002C92D4 /* TSLibraryImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLibraryImport.h; sourceTree = "<group>"; };
-		9AC889D013A69AD6002C92D4 /* TSLibraryImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLibraryImport.m; sourceTree = "<group>"; };
+		9AC889D013A69AD6002C92D4 /* TSLibraryImport.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSLibraryImport.mm; sourceTree = "<group>"; };
 		9AC88A0013A6A4B4002C92D4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		9AC88A6E13A6ACEA002C92D4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		9AC88A7213A6AD1A002C92D4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -91,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D5905A18CEC53F006D1C06 /* libstdc++.dylib in Frameworks */,
 				51F573EB187F9B5300B85689 /* libstdc++.6.0.9.dylib in Frameworks */,
 				51F573E9187F9B4E00B85689 /* libechoprint-codegen-ios.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
@@ -116,15 +123,15 @@
 				547F808A18C76966000FEDB7 /* CodeGenWrapper.h */,
 				547F808B18C76966000FEDB7 /* CodeGenWrapper.mm */,
 				547F808C18C76966000FEDB7 /* FPGenerator.h */,
-				547F808D18C76966000FEDB7 /* FPGenerator.m */,
-				9AC889D013A69AD6002C92D4 /* TSLibraryImport.m */,
+				547F808D18C76966000FEDB7 /* FPGenerator.mm */,
+				9AC889D013A69AD6002C92D4 /* TSLibraryImport.mm */,
 				9AC889CF13A69AD0002C92D4 /* TSLibraryImport.h */,
 				9AC8897313A69840002C92D4 /* MicrophoneInput.h */,
-				9AC8897413A69840002C92D4 /* MicrophoneInput.m */,
+				9AC8897413A69840002C92D4 /* MicrophoneInput.mm */,
 				1D3623240D0F684500981E51 /* echoprintAppDelegate.h */,
-				1D3623250D0F684500981E51 /* echoprintAppDelegate.m */,
+				1D3623250D0F684500981E51 /* echoprintAppDelegate.mm */,
 				28D7ACF60DDB3853001CB0EB /* echoprintViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* echoprintViewController.m */,
+				28D7ACF70DDB3853001CB0EB /* echoprintViewController.mm */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -176,6 +183,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51D5905918CEC53F006D1C06 /* libstdc++.dylib */,
 				51F573EA187F9B5300B85689 /* libstdc++.6.0.9.dylib */,
 				9AC88A6E13A6ACEA002C92D4 /* libz.dylib */,
 				9AC88A0013A6A4B4002C92D4 /* MediaPlayer.framework */,
@@ -317,12 +325,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* echoprintAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* echoprintViewController.m in Sources */,
-				9AC8897513A69840002C92D4 /* MicrophoneInput.m in Sources */,
-				9AC889D113A69AD6002C92D4 /* TSLibraryImport.m in Sources */,
+				1D3623260D0F684500981E51 /* echoprintAppDelegate.mm in Sources */,
+				28D7ACF80DDB3853001CB0EB /* echoprintViewController.mm in Sources */,
+				51D5905718CEC075006D1C06 /* CADebugMacros.h in Sources */,
+				9AC8897513A69840002C92D4 /* MicrophoneInput.mm in Sources */,
+				9AC889D113A69AD6002C92D4 /* TSLibraryImport.mm in Sources */,
 				547F808E18C76966000FEDB7 /* CodeGenWrapper.mm in Sources */,
-				547F808F18C76966000FEDB7 /* FPGenerator.m in Sources */,
+				51D5905518CEC05A006D1C06 /* CAStreamBasicDescription.h in Sources */,
+				51D5905618CEC072006D1C06 /* Codegen.h in Sources */,
+				51D5905818CEC075006D1C06 /* echoprint_Prefix.pch in Sources */,
+				547F808F18C76966000FEDB7 /* FPGenerator.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +354,12 @@
 			baseConfigurationReference = 12C4245D36A74350A5EFE6CB /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -364,9 +379,12 @@
 			baseConfigurationReference = 12C4245D36A74350A5EFE6CB /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = echoprint_Prefix.pch;
 				INFOPLIST_FILE = "echoprint-Info.plist";
@@ -384,7 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brian Whitman (484WPXPBPT)";
-				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -398,7 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
